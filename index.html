@@ -67,7 +67,7 @@
 
         <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
 
-        <button type="button" class="hero-btn">Заказать услугу</button>
+        <button data-modal-open type="button" class="hero-btn">Заказать услугу</button>
 
       </div>
 
@@ -364,7 +364,7 @@
 
           <li class="clients-item">
             <a href="#" class="clients-link">
-              <svg class="clients-logo" width="41" height="47">
+              <svg class="clients-logo">
                 <use href="./image/sprite.svg#icon-yaco"></use>
               </svg>
             </a>
@@ -372,7 +372,7 @@
 
           <li class="clients-item">
             <a href="#" class="clients-link">
-              <svg class="clients-logo" width="40" height="52">
+              <svg class="clients-logo">
                 <use href="./image/sprite.svg#icon-group"></use>
               </svg>
             </a>
@@ -380,7 +380,7 @@
 
           <li class="clients-item">
             <a href="#" class="clients-link">
-              <svg class="clients-logo" width="44" height="41">
+              <svg class="clients-logo">
                 <use href="./image/sprite.svg#icon-company"></use>
               </svg>
             </a>
@@ -388,7 +388,7 @@
 
           <li class="clients-item">
             <a href="#" class="clients-link">
-              <svg class="clients-logo" width="85" height="41">
+              <svg class="clients-logo">
                 <use href="./image/sprite.svg#icon-foster"></use>
               </svg>
             </a>
@@ -396,7 +396,7 @@
 
           <li class="clients-item">
             <a href="#" class="clients-link">
-              <svg class="clients-logo" width="63" height="45">
+              <svg class="clients-logo">
                 <use href="./image/sprite.svg#icon-brand"></use>
               </svg>
             </a>
@@ -404,7 +404,7 @@
 
           <li class="clients-item">
             <a href="#" class="clients-link">
-              <svg class="clients-logo" width="94" height="44">
+              <svg class="clients-logo">
                 <use href="./image/sprite.svg#icon-tagline"></use>
               </svg>
             </a>
@@ -475,6 +475,18 @@
     </div>
 
   </footer>
+
+  <div data-modal class="backdrop is-hidden">
+    <div class="modal">
+
+      <button aria-label="кнопка закрить окно" data-modal-close type="button" class="modal-button">
+        <svg class="modal-close" width="11" height="11">
+          <use href="./image/sprite.svg#icon-modal-close"></use>
+        </svg>
+      </button>
+
+    </div>
+  </div>
 
   <script src="./js/modal.js"></script>
 
