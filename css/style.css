@@ -688,6 +688,7 @@ p{
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: var(--white);
+  cursor: pointer;
 
   transition: border-color var(--ms) var(--cubik);
 }
